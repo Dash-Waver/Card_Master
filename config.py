@@ -18,7 +18,7 @@ MODEL_NAME = "CIDS734-Lab8-model.Q4_K_M.gguf"
 FALLBACK_BASE_URL = "https://api.groq.com/openai/v1"
 
 FALLBACK_API_KEY = os.getenv("GROQ_API_KEY", "from google.colab import userdata
-userdata.get('card_master)")
+userdata.get('card_master')")
 
 FALLBACK_MODEL_NAME = "llama-3.1-3b-instant"
  
