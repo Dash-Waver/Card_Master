@@ -1,5 +1,4 @@
 import streamlit as st
-from engine import run_import_inference
 from openai import OpenAI
 
 # Show title and description.
