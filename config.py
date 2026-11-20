@@ -20,7 +20,7 @@ FALLBACK_BASE_URL = "https://api.groq.com/openai/v1"
 FALLBACK_API_KEY = os.getenv("GROQ_API_KEY", "from google.colab import userdata
 userdata.get('card_master')")
 
-FALLBACK_MODEL_NAME = "llama-3.1-3b-instant"
+FALLBACK_MODEL_NAME = "model="gpt-3.5-turbo""
  
 SYSTEM_PROMPT = (
 
